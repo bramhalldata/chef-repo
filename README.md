@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Overview
 ========
 
@@ -64,3 +65,9 @@ Next Steps
 ==========
 
 Read the README file in each of the subdirectories for more information about what goes in those directories.
+=======
+chef-repo
+=========
+
+Chef Automation Infrastructure Cookbook
+>>>>>>> 2198fb2b5518d6ecf6ef443e8c0117967e1934a2
