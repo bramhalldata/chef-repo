@@ -11,3 +11,7 @@ chef_server_url          "https://api.opscode.com/organizations/dbh"
 cache_type               'BasicFile'
 cache_options( :path => "#{ENV['HOME']}/.chef/checksums" )
 cookbook_path            ["#{current_dir}/../cookbooks"]
+
+cookbook_copyright "David Harris"
+cookbook_license "apachev2"
+cookbook_email "david.harris@bramhalldata.com"
