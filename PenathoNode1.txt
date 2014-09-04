@@ -1,0 +1,2893 @@
+PentahoNode1:
+  node:
+    block_device:
+      dm-0:
+        removable: 0
+        size:      39305216
+      dm-1:
+        removable: 0
+        size:      2088960
+      fd0:
+        removable: 1
+        size:      0
+      loop0:
+        removable: 0
+        size:      0
+      loop1:
+        removable: 0
+        size:      0
+      loop2:
+        removable: 0
+        size:      0
+      loop3:
+        removable: 0
+        size:      0
+      loop4:
+        removable: 0
+        size:      0
+      loop5:
+        removable: 0
+        size:      0
+      loop6:
+        removable: 0
+        size:      0
+      loop7:
+        removable: 0
+        size:      0
+      ram0:
+        removable: 0
+        size:      131072
+      ram1:
+        removable: 0
+        size:      131072
+      ram10:
+        removable: 0
+        size:      131072
+      ram11:
+        removable: 0
+        size:      131072
+      ram12:
+        removable: 0
+        size:      131072
+      ram13:
+        removable: 0
+        size:      131072
+      ram14:
+        removable: 0
+        size:      131072
+      ram15:
+        removable: 0
+        size:      131072
+      ram2:
+        removable: 0
+        size:      131072
+      ram3:
+        removable: 0
+        size:      131072
+      ram4:
+        removable: 0
+        size:      131072
+      ram5:
+        removable: 0
+        size:      131072
+      ram6:
+        removable: 0
+        size:      131072
+      ram7:
+        removable: 0
+        size:      131072
+      ram8:
+        removable: 0
+        size:      131072
+      ram9:
+        removable: 0
+        size:      131072
+      sda:
+        model:     VMware Virtual S
+        removable: 0
+        rev:       1.0
+        size:      41943040
+        state:     running
+        timeout:   30
+        vendor:    VMware,
+      sr0:
+        model:     VMware SATA CD01
+        removable: 1
+        rev:       1.00
+        size:      2097151
+        state:     running
+        timeout:   30
+        vendor:    NECVMWar
+    chef_environment: _default
+    chef_packages:
+      chef:
+        chef_root: /opt/chef/embedded/lib/ruby/gems/1.9.1/gems/chef-11.14.2/lib
+        version:   11.14.2
+      ohai:
+        ohai_root: /opt/chef/embedded/lib/ruby/gems/1.9.1/gems/ohai-7.2.0/lib/ohai
+        version:   7.2.0
+    chef_type:        node
+    cloud_v2:         
+    command:
+      ps: ps -ef
+    counters:
+      network:
+        interfaces:
+          eth0:
+            rx:
+              bytes:   37310665
+              drop:    0
+              errors:  0
+              overrun: 0
+              packets: 25031
+            tx:
+              bytes:      747023
+              carrier:    0
+              collisions: 0
+              drop:       0
+              errors:     0
+              packets:    10131
+              queuelen:   1000
+          lo:
+            rx:
+              bytes:   0
+              drop:    0
+              errors:  0
+              overrun: 0
+              packets: 0
+            tx:
+              bytes:      0
+              carrier:    0
+              collisions: 0
+              drop:       0
+              errors:     0
+              packets:    0
+    cpu:
+      0:
+        cache_size:  6144 KB
+        core_id:     0
+        cores:       1
+        family:      6
+        flags:
+          fpu
+          vme
+          de
+          pse
+          tsc
+          msr
+          pae
+          mce
+          cx8
+          apic
+          sep
+          mtrr
+          pge
+          mca
+          cmov
+          pat
+          pse36
+          clflush
+          dts
+          mmx
+          fxsr
+          sse
+          sse2
+          ss
+          syscall
+          nx
+          rdtscp
+          lm
+          constant_tsc
+          arch_perfmon
+          pebs
+          bts
+          nopl
+          xtopology
+          tsc_reliable
+          nonstop_tsc
+          aperfmperf
+          eagerfpu
+          pni
+          pclmulqdq
+          ssse3
+          cx16
+          pcid
+          sse4_1
+          sse4_2
+          x2apic
+          popcnt
+          aes
+          xsave
+          avx
+          f16c
+          rdrand
+          hypervisor
+          lahf_lm
+          ida
+          arat
+          epb
+          xsaveopt
+          pln
+          pts
+          dtherm
+          fsgsbase
+          smep
+        mhz:         3192.779
+        model:       58
+        model_name:  Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+        physical_id: 0
+        stepping:    9
+        vendor_id:   GenuineIntel
+      real:  1
+      total: 1
+    current_user:     ubuntu
+    dmi:
+      base_board:
+        all_records:
+          Asset Tag:                Not Specified
+          Chassis Handle:           0x0000
+          Contained Object Handles: 0
+          Features:                 None
+          Location In Chassis:      Not Specified
+          Manufacturer:             Intel Corporation
+          Product Name:             440BX Desktop Reference Platform
+          Serial Number:            None
+          Type:                     Unknown
+          Version:                  None
+          application_identifier:   Base Board Information
+          record_id:                0x0002
+          size:                     2
+        asset_tag:                Not Specified
+        chassis_handle:           0x0000
+        contained_object_handles: 0
+        features:                 None
+        location_in_chassis:      Not Specified
+        manufacturer:             Intel Corporation
+        product_name:             440BX Desktop Reference Platform
+        serial_number:            None
+        type:                     Unknown
+        version:                  None
+      bios:
+        address:           0xEA050
+        all_records:
+          Address:                0xEA050
+          BIOS Revision:          4.6
+          Characteristics:
+            8042 keyboard services are supported (int 9h):    
+            ACPI is supported:                                
+            APM is supported:                                 
+            BIOS boot specification is supported:             
+            BIOS is upgradeable:                              
+            BIOS shadowing is allowed:                        
+            Boot from CD is supported:                        
+            CGA/mono video services are supported (int 10h):  
+            EDD is supported:                                 
+            ESCD support is available:                        
+            Function key-initiated network boot is supported: 
+            ISA is supported:                                 
+            PC Card (PCMCIA) is supported:                    
+            PCI is supported:                                 
+            PNP is supported:                                 
+            Print screen service is supported (int 5h):       
+            Printer services are supported (int 17h):         
+            Selectable boot is supported:                     
+            Serial services are supported (int 14h):          
+            Smart battery is supported:                       
+            Targeted content distribution is supported:       
+          Firmware Revision:      0.0
+          ROM Size:               64 kB
+          Release Date:           07/31/2013
+          Runtime Size:           90032 bytes
+          Vendor:                 Phoenix Technologies LTD
+          Version:                6.00
+          application_identifier: BIOS Information
+          record_id:              0x0000
+          size:                   0
+        bios_revision:     4.6
+        firmware_revision: 0.0
+        release_date:      07/31/2013
+        rom_size:          64 kB
+        runtime_size:      90032 bytes
+        vendor:            Phoenix Technologies LTD
+        version:           6.00
+      chassis:
+        all_records:
+          Asset Tag:              No Asset Tag
+          Boot-up State:          Safe
+          Contained Elements:     0
+          Height:                 Unspecified
+          Lock:                   Not Present
+          Manufacturer:           No Enclosure
+          Number Of Power Cords:  Unspecified
+          OEM Information:        0x00001234
+          Power Supply State:     Safe
+          Security Status:        None
+          Serial Number:          None
+          Thermal State:          Safe
+          Type:                   Other
+          Version:                N/A
+          application_identifier: Chassis Information
+          record_id:              0x0003
+          size:                   3
+        asset_tag:             No Asset Tag
+        boot_up_state:         Safe
+        contained_elements:    0
+        height:                Unspecified
+        lock:                  Not Present
+        manufacturer:          No Enclosure
+        number_of_power_cords: Unspecified
+        oem_information:       0x00001234
+        power_supply_state:    Safe
+        security_status:       None
+        serial_number:         None
+        thermal_state:         Safe
+        type:                  Other
+        version:               N/A
+      dmidecode_version: 2.12
+      memory_module:
+        all_records:
+          Bank Connections:       None
+          Current Speed:          Unknown
+          Enabled Size:           1024 MB (Single-bank Connection)
+          Error Status:           OK
+          Installed Size:         1024 MB (Single-bank Connection)
+          Socket Designation:     RAM socket #0
+          Type:                   EDO DIMM
+          application_identifier: Memory Module Information
+          record_id:              0x0045
+          size:                   6
+          
+          Bank Connections:       None
+          Current Speed:          Unknown
+          Enabled Size:           Not Installed
+          Error Status:           OK
+          Installed Size:         Not Installed
+          Socket Designation:     RAM socket #1
+          Type:                   DIMM
+          application_identifier: Memory Module Information
+          record_id:              0x0046
+          size:                   6
+          
+          Bank Connections:       None
+          Current Speed:          Unknown
+          Enabled Size:           Not Installed
+          Error Status:           OK
+          Installed Size:         Not Installed
+          Socket Designation:     RAM socket #2
+          Type:                   DIMM
+          application_identifier: Memory Module Information
+          record_id:              0x0047
+          size:                   6
+          
+          Bank Connections:       None
+          Current Speed:          Unknown
+          Enabled Size:           Not Installed
+          Error Status:           OK
+          Installed Size:         Not Installed
+          Socket Designation:     RAM socket #3
+          Type:                   DIMM
+          application_identifier: Memory Module Information
+          record_id:              0x0048
+          size:                   6
+          
+          Bank Connections:       None
+          Current Speed:          Unknown
+          Enabled Size:           Not Installed
+          Error Status:           OK
+          Installed Size:         Not Installed
+          Socket Designation:     RAM socket #4
+          Type:                   DIMM
+          application_identifier: Memory Module Information
+          record_id:              0x0049
+          size:                   6
+          
+          Bank Connections:       None
+          Current Speed:          Unknown
+          Enabled Size:           Not Installed
+          Error Status:           OK
+          Installed Size:         Not Installed
+          Socket Designation:     RAM socket #5
+          Type:                   DIMM
+          application_identifier: Memory Module Information
+          record_id:              0x004A
+          size:                   6
+          
+          Bank Connections:       None
+          Current Speed:          Unknown
+          Enabled Size:           Not Installed
+          Error Status:           OK
+          Installed Size:         Not Installed
+          Socket Designation:     RAM socket #6
+          Type:                   DIMM
+          application_identifier: Memory Module Information
+          record_id:              0x004B
+          size:                   6
+          
+          Bank Connections:       None
+          Current Speed:          Unknown
+          Enabled Size:           Not Installed
+          Error Status:           OK
+          Installed Size:         Not Installed
+          Socket Designation:     RAM socket #7
+          Type:                   DIMM
+          application_identifier: Memory Module Information
+          record_id:              0x004C
+          size:                   6
+          
+          Bank Connections:       None
+          Current Speed:          Unknown
+          Enabled Size:           Not Installed
+          Error Status:           OK
+          Installed Size:         Not Installed
+          Socket Designation:     RAM socket #8
+          Type:                   DIMM
+          application_identifier: Memory Module Information
+          record_id:              0x004D
+          size:                   6
+          
+          Bank Connections:       None
+          Current Speed:          Unknown
+          Enabled Size:           Not Installed
+          Error Status:           OK
+          Installed Size:         Not Installed
+          Socket Designation:     RAM socket #9
+          Type:                   DIMM
+          application_identifier: Memory Module Information
+          record_id:              0x004E
+          size:                   6
+          
+          Bank Connections:       None
+          Current Speed:          Unknown
+          Enabled Size:           Not Installed
+          Error Status:           OK
+          Installed Size:         Not Installed
+          Socket Designation:     RAM socket #10
+          Type:                   DIMM
+          application_identifier: Memory Module Information
+          record_id:              0x004F
+          size:                   6
+          
+          Bank Connections:       None
+          Current Speed:          Unknown
+          Enabled Size:           Not Installed
+          Error Status:           OK
+          Installed Size:         Not Installed
+          Socket Designation:     RAM socket #11
+          Type:                   DIMM
+          application_identifier: Memory Module Information
+          record_id:              0x0050
+          size:                   6
+          
+          Bank Connections:       None
+          Current Speed:          Unknown
+          Enabled Size:           Not Installed
+          Error Status:           OK
+          Installed Size:         Not Installed
+          Socket Designation:     RAM socket #12
+          Type:                   DIMM
+          application_identifier: Memory Module Information
+          record_id:              0x0051
+          size:                   6
+          
+          Bank Connections:       None
+          Current Speed:          Unknown
+          Enabled Size:           Not Installed
+          Error Status:           OK
+          Installed Size:         Not Installed
+          Socket Designation:     RAM socket #13
+          Type:                   DIMM
+          application_identifier: Memory Module Information
+          record_id:              0x0052
+          size:                   6
+          
+          Associativity:                 Unknown
+          Bank Connections:              None
+          Characteristics:
+            3.3 V is provided: 
+            5.0 V is provided: 
+          Configuration:                 Enabled, Socketed, Level 2
+          Current Speed:                 Unknown
+          Current Usage:                 Available
+          Description:                   ES1371
+          Designation:                   PCI Slot J14
+          Enabled Size:                  Not Installed
+          Error Correction Type:         Unknown
+          Error Status:                  OK
+          External Connector Type:       Circular DIN-8 male
+          External Reference Designator: PS/2 Mouse
+          ID:                            4
+          Installed SRAM Type:           Burst
+          Installed Size:                0 kB
+          Internal Connector Type:       None
+          Internal Reference Designator: J12
+          Length:                        Long
+          Location:                      External
+          Maximum Size:                  24576 kB
+          Operational Mode:              Write Back
+          Port Type:                     Keyboard Port
+          Socket Designation:            L2 Cache
+          Speed:                         Unknown
+          Status:                        Disabled
+          Supported SRAM Types:
+            Asynchronous:   
+            Burst:          
+            Pipeline Burst: 
+          System Type:                   Unknown
+          Type:                          Sound
+          application_identifier:        On Board Device 
+          record_id:                     0x0053
+          size:                          6
+        associativity:                 Unknown
+        bank_connections:              None
+        configuration:                 Enabled, Socketed, Level 2
+        current_speed:                 Unknown
+        current_usage:                 Available
+        description:                   ES1371
+        designation:                   PCI Slot J14
+        error_correction_type:         Unknown
+        error_status:                  OK
+        external_connector_type:       Circular DIN-8 male
+        external_reference_designator: PS/2 Mouse
+        id:                            4
+        installed_sram_type:           Burst
+        internal_connector_type:       None
+        internal_reference_designator: J12
+        length:                        Long
+        location:                      External
+        maximum_size:                  24576 kB
+        operational_mode:              Write Back
+        port_type:                     Keyboard Port
+        speed:                         Unknown
+        status:                        Disabled
+        system_type:                   Unknown
+      oem_strings:
+        access_address:                     0x0000
+        access_method:                      General-purpose non-volatile data functions
+        administrator_password_status:      Enabled
+        all_records:
+          Access Address:                     0x0000
+          Access Method:                      General-purpose non-volatile data functions
+          Administrator Password Status:      Enabled
+          Area Length:                        16 bytes
+          Array Handle:                       0x00E2
+          Asset Tag:                          Not Specified
+          Bank Locator:                       RAM slot #63
+          Boot Option:                        Do Not Reboot
+          Boot Option On Limit:               Do Not Reboot
+          Change Token:                       0x00000036
+          Data Format 1:                      POST results bitmap
+          Data Format 2:                      Multiple-event
+          Data Format 3:                      Multiple-event
+          Data Start Offset:                  0x0010
+          Data Width:                         Unknown
+          Descriptor 1:                       POST error
+          Descriptor 2:                       Single-bit ECC memory error
+          Descriptor 3:                       Multi-bit ECC memory error
+          Device Address:                     Unknown
+          Ending Address:                     0x0003FFFFFFF
+          Error Correction Type:              None
+          Error Information Handle:           No Error
+          Form Factor:                        DIMM
+          Front Panel Reset Status:           Unknown
+          Granularity:                        Unknown
+          Header Format:                      Type 1
+          Header Length:                      16 bytes
+          Header Start Offset:                0x0000
+          Inbound Connection:                 Enabled
+          Interleave Position:                Unknown
+          Interleaved Data Depth:             Unknown
+          Keyboard Password Status:           Unknown
+          Location:                           System Board Or Motherboard
+          Locator:                            RAM slot #63
+          Manufacturer:                       Not Specified
+          Manufacturer Name:                  Intel
+          Maximum Capacity:                   1 TB
+          Memory Array Address:               Unknown
+          Memory Array Mapped Address Handle: 0x0124
+          Number Of Devices:                  64
+          Operation:                          Unknown
+          Outbound Connection:                Disabled
+          Part Number:                        Not Specified
+          Partition Row Position:             Unknown
+          Partition Width:                    64
+          Physical Array Handle:              0x00E2
+          Physical Device Handle:             0x0122
+          Power-On Password Status:           Disabled
+          Range Size:                         1 kB
+          Reset Count:                        Unknown
+          Reset Limit:                        Unknown
+          Resolution:                         Unknown
+          Serial Number:                      Not Specified
+          Set:                                None
+          Size:                               No Module Installed
+          Speed:                              Unknown
+          Starting Address:                   0x0003FFFFC00
+          Status:                             No errors detected
+          String 1:                           [MS_VM_CERT/SHA1/27d66596a61c48dd3dc7216fd715126e33f59ae7]
+          String 2:                           Welcome to the Virtual Machine
+          Supported Log Type Descriptors:     3
+          Timeout:                            Unknown
+          Timer Interval:                     Unknown
+          Total Width:                        Unknown
+          Type:                               OK
+          Type Detail:                        Unknown
+          Use:                                System Memory
+          Vendor Syndrome:                    Unknown
+          Watchdog Timer:                     Present
+          application_identifier:             End Of Table
+          record_id:                          0x00E0
+          size:                               11
+        area_length:                        16 bytes
+        array_handle:                       0x00E2
+        asset_tag:                          Not Specified
+        bank_locator:                       RAM slot #63
+        boot_option:                        Do Not Reboot
+        boot_option_on_limit:               Do Not Reboot
+        change_token:                       0x00000036
+        data_format_1:                      POST results bitmap
+        data_format_2:                      Multiple-event
+        data_format_3:                      Multiple-event
+        data_start_offset:                  0x0010
+        data_width:                         Unknown
+        descriptor_1:                       POST error
+        descriptor_2:                       Single-bit ECC memory error
+        descriptor_3:                       Multi-bit ECC memory error
+        device_address:                     Unknown
+        ending_address:                     0x0003FFFFFFF
+        error_correction_type:              None
+        error_information_handle:           No Error
+        form_factor:                        DIMM
+        front_panel_reset_status:           Unknown
+        granularity:                        Unknown
+        header_format:                      Type 1
+        header_length:                      16 bytes
+        header_start_offset:                0x0000
+        inbound_connection:                 Enabled
+        interleave_position:                Unknown
+        interleaved_data_depth:             Unknown
+        keyboard_password_status:           Unknown
+        location:                           System Board Or Motherboard
+        locator:                            RAM slot #63
+        manufacturer:                       Not Specified
+        manufacturer_name:                  Intel
+        maximum_capacity:                   1 TB
+        memory_array_address:               Unknown
+        memory_array_mapped_address_handle: 0x0124
+        number_of_devices:                  64
+        operation:                          Unknown
+        outbound_connection:                Disabled
+        part_number:                        Not Specified
+        partition_row_position:             Unknown
+        partition_width:                    64
+        physical_array_handle:              0x00E2
+        physical_device_handle:             0x0122
+        power_on_password_status:           Disabled
+        range_size:                         1 kB
+        reset_count:                        Unknown
+        reset_limit:                        Unknown
+        resolution:                         Unknown
+        serial_number:                      Not Specified
+        set:                                None
+        size:                               No Module Installed
+        speed:                              Unknown
+        starting_address:                   0x0003FFFFC00
+        status:                             No errors detected
+        string_1:                           [MS_VM_CERT/SHA1/27d66596a61c48dd3dc7216fd715126e33f59ae7]
+        string_2:                           Welcome to the Virtual Machine
+        supported_log_type_descriptors:     3
+        timeout:                            Unknown
+        timer_interval:                     Unknown
+        total_width:                        Unknown
+        type:                               OK
+        type_detail:                        Unknown
+        use:                                System Memory
+        vendor_syndrome:                    Unknown
+        watchdog_timer:                     Present
+      processor:
+        all_records:
+          Asset Tag:              Not Specified
+          Current Speed:          3200 MHz
+          External Clock:         Unknown
+          Family:                 Unknown
+          ID:                     A9 06 03 00 FF FB AB 0F
+          L1 Cache Handle:        0x0054
+          L2 Cache Handle:        0x0055
+          L3 Cache Handle:        Not Provided
+          Manufacturer:           GenuineIntel
+          Max Speed:              30000 MHz
+          Part Number:            Not Specified
+          Serial Number:          Not Specified
+          Socket Designation:     CPU socket #0
+          Status:                 Populated, Enabled
+          Type:                   Central Processor
+          Upgrade:                ZIF Socket
+          Version:                        Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+          Voltage:                3.3 V
+          application_identifier: Processor Information
+          record_id:              0x0004
+          size:                   4
+          
+          Asset Tag:              Not Specified
+          Current Speed:          3200 MHz
+          External Clock:         Unknown
+          Family:                 Unknown
+          ID:                     A9 06 00 00 FF FB AB 0F
+          L1 Cache Handle:        0x0056
+          L2 Cache Handle:        0x0057
+          L3 Cache Handle:        Not Provided
+          Manufacturer:           GenuineIntel
+          Max Speed:              30000 MHz
+          Part Number:            Not Specified
+          Serial Number:          Not Specified
+          Socket Designation:     CPU socket #1
+          Status:                 Populated, Disabled By BIOS
+          Type:                   Central Processor
+          Upgrade:                ZIF Socket
+          Version:                        Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+          Voltage:                3.3 V
+          application_identifier: Processor Information
+          record_id:              0x0005
+          size:                   4
+          
+          Asset Tag:              Not Specified
+          Current Speed:          3200 MHz
+          External Clock:         Unknown
+          Family:                 Unknown
+          ID:                     A9 06 00 00 FF FB AB 0F
+          L1 Cache Handle:        0x0058
+          L2 Cache Handle:        0x0059
+          L3 Cache Handle:        Not Provided
+          Manufacturer:           GenuineIntel
+          Max Speed:              30000 MHz
+          Part Number:            Not Specified
+          Serial Number:          Not Specified
+          Socket Designation:     CPU socket #2
+          Status:                 Populated, Disabled By BIOS
+          Type:                   Central Processor
+          Upgrade:                ZIF Socket
+          Version:                        Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+          Voltage:                3.3 V
+          application_identifier: Processor Information
+          record_id:              0x0006
+          size:                   4
+          
+          Asset Tag:              Not Specified
+          Current Speed:          3200 MHz
+          External Clock:         Unknown
+          Family:                 Unknown
+          ID:                     A9 06 00 00 FF FB AB 0F
+          L1 Cache Handle:        0x005A
+          L2 Cache Handle:        0x005B
+          L3 Cache Handle:        Not Provided
+          Manufacturer:           GenuineIntel
+          Max Speed:              30000 MHz
+          Part Number:            Not Specified
+          Serial Number:          Not Specified
+          Socket Designation:     CPU socket #3
+          Status:                 Populated, Disabled By BIOS
+          Type:                   Central Processor
+          Upgrade:                ZIF Socket
+          Version:                        Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+          Voltage:                3.3 V
+          application_identifier: Processor Information
+          record_id:              0x0007
+          size:                   4
+          
+          Asset Tag:              Not Specified
+          Current Speed:          3200 MHz
+          External Clock:         Unknown
+          Family:                 Unknown
+          ID:                     A9 06 00 00 FF FB AB 0F
+          L1 Cache Handle:        0x005C
+          L2 Cache Handle:        0x005D
+          L3 Cache Handle:        Not Provided
+          Manufacturer:           GenuineIntel
+          Max Speed:              30000 MHz
+          Part Number:            Not Specified
+          Serial Number:          Not Specified
+          Socket Designation:     CPU socket #4
+          Status:                 Populated, Disabled By BIOS
+          Type:                   Central Processor
+          Upgrade:                ZIF Socket
+          Version:                        Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+          Voltage:                3.3 V
+          application_identifier: Processor Information
+          record_id:              0x0008
+          size:                   4
+          
+          Asset Tag:              Not Specified
+          Current Speed:          3200 MHz
+          External Clock:         Unknown
+          Family:                 Unknown
+          ID:                     A9 06 00 00 FF FB AB 0F
+          L1 Cache Handle:        0x005E
+          L2 Cache Handle:        0x005F
+          L3 Cache Handle:        Not Provided
+          Manufacturer:           GenuineIntel
+          Max Speed:              30000 MHz
+          Part Number:            Not Specified
+          Serial Number:          Not Specified
+          Socket Designation:     CPU socket #5
+          Status:                 Populated, Disabled By BIOS
+          Type:                   Central Processor
+          Upgrade:                ZIF Socket
+          Version:                        Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+          Voltage:                3.3 V
+          application_identifier: Processor Information
+          record_id:              0x0009
+          size:                   4
+          
+          Asset Tag:              Not Specified
+          Current Speed:          3200 MHz
+          External Clock:         Unknown
+          Family:                 Unknown
+          ID:                     A9 06 00 00 FF FB AB 0F
+          L1 Cache Handle:        0x0060
+          L2 Cache Handle:        0x0061
+          L3 Cache Handle:        Not Provided
+          Manufacturer:           GenuineIntel
+          Max Speed:              30000 MHz
+          Part Number:            Not Specified
+          Serial Number:          Not Specified
+          Socket Designation:     CPU socket #6
+          Status:                 Populated, Disabled By BIOS
+          Type:                   Central Processor
+          Upgrade:                ZIF Socket
+          Version:                        Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+          Voltage:                3.3 V
+          application_identifier: Processor Information
+          record_id:              0x000A
+          size:                   4
+          
+          Asset Tag:              Not Specified
+          Current Speed:          3200 MHz
+          External Clock:         Unknown
+          Family:                 Unknown
+          ID:                     A9 06 00 00 FF FB AB 0F
+          L1 Cache Handle:        0x0062
+          L2 Cache Handle:        0x0063
+          L3 Cache Handle:        Not Provided
+          Manufacturer:           GenuineIntel
+          Max Speed:              30000 MHz
+          Part Number:            Not Specified
+          Serial Number:          Not Specified
+          Socket Designation:     CPU socket #7
+          Status:                 Populated, Disabled By BIOS
+          Type:                   Central Processor
+          Upgrade:                ZIF Socket
+          Version:                        Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+          Voltage:                3.3 V
+          application_identifier: Processor Information
+          record_id:              0x000B
+          size:                   4
+          
+          Asset Tag:              Not Specified
+          Current Speed:          3200 MHz
+          External Clock:         Unknown
+          Family:                 Unknown
+          ID:                     A9 06 00 00 FF FB AB 0F
+          L1 Cache Handle:        0x0064
+          L2 Cache Handle:        0x0065
+          L3 Cache Handle:        Not Provided
+          Manufacturer:           GenuineIntel
+          Max Speed:              30000 MHz
+          Part Number:            Not Specified
+          Serial Number:          Not Specified
+          Socket Designation:     CPU socket #8
+          Status:                 Populated, Disabled By BIOS
+          Type:                   Central Processor
+          Upgrade:                ZIF Socket
+          Version:                        Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+          Voltage:                3.3 V
+          application_identifier: Processor Information
+          record_id:              0x000C
+          size:                   4
+          
+          Asset Tag:              Not Specified
+          Current Speed:          3200 MHz
+          External Clock:         Unknown
+          Family:                 Unknown
+          ID:                     A9 06 00 00 FF FB AB 0F
+          L1 Cache Handle:        0x0066
+          L2 Cache Handle:        0x0067
+          L3 Cache Handle:        Not Provided
+          Manufacturer:           GenuineIntel
+          Max Speed:              30000 MHz
+          Part Number:            Not Specified
+          Serial Number:          Not Specified
+          Socket Designation:     CPU socket #9
+          Status:                 Populated, Disabled By BIOS
+          Type:                   Central Processor
+          Upgrade:                ZIF Socket
+          Version:                        Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+          Voltage:                3.3 V
+          application_identifier: Processor Information
+          record_id:              0x000D
+          size:                   4
+          
+          Asset Tag:              Not Specified
+          Current Speed:          3200 MHz
+          External Clock:         Unknown
+          Family:                 Unknown
+          ID:                     A9 06 00 00 FF FB AB 0F
+          L1 Cache Handle:        0x0068
+          L2 Cache Handle:        0x0069
+          L3 Cache Handle:        Not Provided
+          Manufacturer:           GenuineIntel
+          Max Speed:              30000 MHz
+          Part Number:            Not Specified
+          Serial Number:          Not Specified
+          Socket Designation:     CPU socket #10
+          Status:                 Populated, Disabled By BIOS
+          Type:                   Central Processor
+          Upgrade:                ZIF Socket
+          Version:                        Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+          Voltage:                3.3 V
+          application_identifier: Processor Information
+          record_id:              0x000E
+          size:                   4
+          
+          Asset Tag:              Not Specified
+          Current Speed:          3200 MHz
+          External Clock:         Unknown
+          Family:                 Unknown
+          ID:                     A9 06 00 00 FF FB AB 0F
+          L1 Cache Handle:        0x006A
+          L2 Cache Handle:        0x006B
+          L3 Cache Handle:        Not Provided
+          Manufacturer:           GenuineIntel
+          Max Speed:              30000 MHz
+          Part Number:            Not Specified
+          Serial Number:          Not Specified
+          Socket Designation:     CPU socket #11
+          Status:                 Populated, Disabled By BIOS
+          Type:                   Central Processor
+          Upgrade:                ZIF Socket
+          Version:                        Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+          Voltage:                3.3 V
+          application_identifier: Processor Information
+          record_id:              0x000F
+          size:                   4
+          
+          Asset Tag:              Not Specified
+          Current Speed:          3200 MHz
+          External Clock:         Unknown
+          Family:                 Unknown
+          ID:                     A9 06 00 00 FF FB AB 0F
+          L1 Cache Handle:        0x006C
+          L2 Cache Handle:        0x006D
+          L3 Cache Handle:        Not Provided
+          Manufacturer:           GenuineIntel
+          Max Speed:              30000 MHz
+          Part Number:            Not Specified
+          Serial Number:          Not Specified
+          Socket Designation:     CPU socket #12
+          Status:                 Populated, Disabled By BIOS
+          Type:                   Central Processor
+          Upgrade:                ZIF Socket
+          Version:                        Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+          Voltage:                3.3 V
+          application_identifier: Processor Information
+          record_id:              0x0010
+          size:                   4
+          
+          Asset Tag:              Not Specified
+          Current Speed:          3200 MHz
+          External Clock:         Unknown
+          Family:                 Unknown
+          ID:                     A9 06 00 00 FF FB AB 0F
+          L1 Cache Handle:        0x006E
+          L2 Cache Handle:        0x006F
+          L3 Cache Handle:        Not Provided
+          Manufacturer:           GenuineIntel
+          Max Speed:              30000 MHz
+          Part Number:            Not Specified
+          Serial Number:          Not Specified
+          Socket Designation:     CPU socket #13
+          Status:                 Populated, Disabled By BIOS
+          Type:                   Central Processor
+          Upgrade:                ZIF Socket
+          Version:                        Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+          Voltage:                3.3 V
+          application_identifier: Processor Information
+          record_id:              0x0011
+          size:                   4
+          
+          Asset Tag:              Not Specified
+          Current Speed:          3200 MHz
+          External Clock:         Unknown
+          Family:                 Unknown
+          ID:                     A9 06 00 00 FF FB AB 0F
+          L1 Cache Handle:        0x0070
+          L2 Cache Handle:        0x0071
+          L3 Cache Handle:        Not Provided
+          Manufacturer:           GenuineIntel
+          Max Speed:              30000 MHz
+          Part Number:            Not Specified
+          Serial Number:          Not Specified
+          Socket Designation:     CPU socket #14
+          Status:                 Populated, Disabled By BIOS
+          Type:                   Central Processor
+          Upgrade:                ZIF Socket
+          Version:                        Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+          Voltage:                3.3 V
+          application_identifier: Processor Information
+          record_id:              0x0012
+          size:                   4
+          
+          Asset Tag:              Not Specified
+          Current Speed:          3200 MHz
+          External Clock:         Unknown
+          Family:                 Unknown
+          ID:                     A9 06 00 00 FF FB AB 0F
+          L1 Cache Handle:        0x0072
+          L2 Cache Handle:        0x0073
+          L3 Cache Handle:        Not Provided
+          Manufacturer:           GenuineIntel
+          Max Speed:              30000 MHz
+          Part Number:            Not Specified
+          Serial Number:          Not Specified
+          Socket Designation:     CPU socket #15
+          Status:                 Populated, Disabled By BIOS
+          Type:                   Central Processor
+          Upgrade:                ZIF Socket
+          Version:                        Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+          Voltage:                3.3 V
+          application_identifier: Processor Information
+          record_id:              0x0013
+          size:                   4
+          
+          Asset Tag:              Not Specified
+          Current Speed:          3200 MHz
+          External Clock:         Unknown
+          Family:                 Unknown
+          ID:                     A9 06 00 00 FF FB AB 0F
+          L1 Cache Handle:        0x0074
+          L2 Cache Handle:        0x0075
+          L3 Cache Handle:        Not Provided
+          Manufacturer:           GenuineIntel
+          Max Speed:              30000 MHz
+          Part Number:            Not Specified
+          Serial Number:          Not Specified
+          Socket Designation:     CPU socket #16
+          Status:                 Populated, Disabled By BIOS
+          Type:                   Central Processor
+          Upgrade:                ZIF Socket
+          Version:                        Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+          Voltage:                3.3 V
+          application_identifier: Processor Information
+          record_id:              0x0014
+          size:                   4
+          
+          Asset Tag:              Not Specified
+          Current Speed:          3200 MHz
+          External Clock:         Unknown
+          Family:                 Unknown
+          ID:                     A9 06 00 00 FF FB AB 0F
+          L1 Cache Handle:        0x0076
+          L2 Cache Handle:        0x0077
+          L3 Cache Handle:        Not Provided
+          Manufacturer:           GenuineIntel
+          Max Speed:              30000 MHz
+          Part Number:            Not Specified
+          Serial Number:          Not Specified
+          Socket Designation:     CPU socket #17
+          Status:                 Populated, Disabled By BIOS
+          Type:                   Central Processor
+          Upgrade:                ZIF Socket
+          Version:                        Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+          Voltage:                3.3 V
+          application_identifier: Processor Information
+          record_id:              0x0015
+          size:                   4
+          
+          Asset Tag:              Not Specified
+          Current Speed:          3200 MHz
+          External Clock:         Unknown
+          Family:                 Unknown
+          ID:                     A9 06 00 00 FF FB AB 0F
+          L1 Cache Handle:        0x0078
+          L2 Cache Handle:        0x0079
+          L3 Cache Handle:        Not Provided
+          Manufacturer:           GenuineIntel
+          Max Speed:              30000 MHz
+          Part Number:            Not Specified
+          Serial Number:          Not Specified
+          Socket Designation:     CPU socket #18
+          Status:                 Populated, Disabled By BIOS
+          Type:                   Central Processor
+          Upgrade:                ZIF Socket
+          Version:                        Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+          Voltage:                3.3 V
+          application_identifier: Processor Information
+          record_id:              0x0016
+          size:                   4
+          
+          Asset Tag:              Not Specified
+          Current Speed:          3200 MHz
+          External Clock:         Unknown
+          Family:                 Unknown
+          ID:                     A9 06 00 00 FF FB AB 0F
+          L1 Cache Handle:        0x007A
+          L2 Cache Handle:        0x007B
+          L3 Cache Handle:        Not Provided
+          Manufacturer:           GenuineIntel
+          Max Speed:              30000 MHz
+          Part Number:            Not Specified
+          Serial Number:          Not Specified
+          Socket Designation:     CPU socket #19
+          Status:                 Populated, Disabled By BIOS
+          Type:                   Central Processor
+          Upgrade:                ZIF Socket
+          Version:                        Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+          Voltage:                3.3 V
+          application_identifier: Processor Information
+          record_id:              0x0017
+          size:                   4
+          
+          Asset Tag:              Not Specified
+          Current Speed:          3200 MHz
+          External Clock:         Unknown
+          Family:                 Unknown
+          ID:                     A9 06 00 00 FF FB AB 0F
+          L1 Cache Handle:        0x007C
+          L2 Cache Handle:        0x007D
+          L3 Cache Handle:        Not Provided
+          Manufacturer:           GenuineIntel
+          Max Speed:              30000 MHz
+          Part Number:            Not Specified
+          Serial Number:          Not Specified
+          Socket Designation:     CPU socket #20
+          Status:                 Populated, Disabled By BIOS
+          Type:                   Central Processor
+          Upgrade:                ZIF Socket
+          Version:                        Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+          Voltage:                3.3 V
+          application_identifier: Processor Information
+          record_id:              0x0018
+          size:                   4
+          
+          Asset Tag:              Not Specified
+          Current Speed:          3200 MHz
+          External Clock:         Unknown
+          Family:                 Unknown
+          ID:                     A9 06 00 00 FF FB AB 0F
+          L1 Cache Handle:        0x007E
+          L2 Cache Handle:        0x007F
+          L3 Cache Handle:        Not Provided
+          Manufacturer:           GenuineIntel
+          Max Speed:              30000 MHz
+          Part Number:            Not Specified
+          Serial Number:          Not Specified
+          Socket Designation:     CPU socket #21
+          Status:                 Populated, Disabled By BIOS
+          Type:                   Central Processor
+          Upgrade:                ZIF Socket
+          Version:                        Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+          Voltage:                3.3 V
+          application_identifier: Processor Information
+          record_id:              0x0019
+          size:                   4
+          
+          Asset Tag:              Not Specified
+          Current Speed:          3200 MHz
+          External Clock:         Unknown
+          Family:                 Unknown
+          ID:                     A9 06 00 00 FF FB AB 0F
+          L1 Cache Handle:        0x0080
+          L2 Cache Handle:        0x0081
+          L3 Cache Handle:        Not Provided
+          Manufacturer:           GenuineIntel
+          Max Speed:              30000 MHz
+          Part Number:            Not Specified
+          Serial Number:          Not Specified
+          Socket Designation:     CPU socket #22
+          Status:                 Populated, Disabled By BIOS
+          Type:                   Central Processor
+          Upgrade:                ZIF Socket
+          Version:                        Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+          Voltage:                3.3 V
+          application_identifier: Processor Information
+          record_id:              0x001A
+          size:                   4
+          
+          Asset Tag:              Not Specified
+          Current Speed:          3200 MHz
+          External Clock:         Unknown
+          Family:                 Unknown
+          ID:                     A9 06 00 00 FF FB AB 0F
+          L1 Cache Handle:        0x0082
+          L2 Cache Handle:        0x0083
+          L3 Cache Handle:        Not Provided
+          Manufacturer:           GenuineIntel
+          Max Speed:              30000 MHz
+          Part Number:            Not Specified
+          Serial Number:          Not Specified
+          Socket Designation:     CPU socket #23
+          Status:                 Populated, Disabled By BIOS
+          Type:                   Central Processor
+          Upgrade:                ZIF Socket
+          Version:                        Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+          Voltage:                3.3 V
+          application_identifier: Processor Information
+          record_id:              0x001B
+          size:                   4
+          
+          Asset Tag:              Not Specified
+          Current Speed:          3200 MHz
+          External Clock:         Unknown
+          Family:                 Unknown
+          ID:                     A9 06 00 00 FF FB AB 0F
+          L1 Cache Handle:        0x0084
+          L2 Cache Handle:        0x0085
+          L3 Cache Handle:        Not Provided
+          Manufacturer:           GenuineIntel
+          Max Speed:              30000 MHz
+          Part Number:            Not Specified
+          Serial Number:          Not Specified
+          Socket Designation:     CPU socket #24
+          Status:                 Populated, Disabled By BIOS
+          Type:                   Central Processor
+          Upgrade:                ZIF Socket
+          Version:                        Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+          Voltage:                3.3 V
+          application_identifier: Processor Information
+          record_id:              0x001C
+          size:                   4
+          
+          Asset Tag:              Not Specified
+          Current Speed:          3200 MHz
+          External Clock:         Unknown
+          Family:                 Unknown
+          ID:                     A9 06 00 00 FF FB AB 0F
+          L1 Cache Handle:        0x0086
+          L2 Cache Handle:        0x0087
+          L3 Cache Handle:        Not Provided
+          Manufacturer:           GenuineIntel
+          Max Speed:              30000 MHz
+          Part Number:            Not Specified
+          Serial Number:          Not Specified
+          Socket Designation:     CPU socket #25
+          Status:                 Populated, Disabled By BIOS
+          Type:                   Central Processor
+          Upgrade:                ZIF Socket
+          Version:                        Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+          Voltage:                3.3 V
+          application_identifier: Processor Information
+          record_id:              0x001D
+          size:                   4
+          
+          Asset Tag:              Not Specified
+          Current Speed:          3200 MHz
+          External Clock:         Unknown
+          Family:                 Unknown
+          ID:                     A9 06 00 00 FF FB AB 0F
+          L1 Cache Handle:        0x0088
+          L2 Cache Handle:        0x0089
+          L3 Cache Handle:        Not Provided
+          Manufacturer:           GenuineIntel
+          Max Speed:              30000 MHz
+          Part Number:            Not Specified
+          Serial Number:          Not Specified
+          Socket Designation:     CPU socket #26
+          Status:                 Populated, Disabled By BIOS
+          Type:                   Central Processor
+          Upgrade:                ZIF Socket
+          Version:                        Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+          Voltage:                3.3 V
+          application_identifier: Processor Information
+          record_id:              0x001E
+          size:                   4
+          
+          Asset Tag:              Not Specified
+          Current Speed:          3200 MHz
+          External Clock:         Unknown
+          Family:                 Unknown
+          ID:                     A9 06 00 00 FF FB AB 0F
+          L1 Cache Handle:        0x008A
+          L2 Cache Handle:        0x008B
+          L3 Cache Handle:        Not Provided
+          Manufacturer:           GenuineIntel
+          Max Speed:              30000 MHz
+          Part Number:            Not Specified
+          Serial Number:          Not Specified
+          Socket Designation:     CPU socket #27
+          Status:                 Populated, Disabled By BIOS
+          Type:                   Central Processor
+          Upgrade:                ZIF Socket
+          Version:                        Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+          Voltage:                3.3 V
+          application_identifier: Processor Information
+          record_id:              0x001F
+          size:                   4
+          
+          Asset Tag:              Not Specified
+          Current Speed:          3200 MHz
+          External Clock:         Unknown
+          Family:                 Unknown
+          ID:                     A9 06 00 00 FF FB AB 0F
+          L1 Cache Handle:        0x008C
+          L2 Cache Handle:        0x008D
+          L3 Cache Handle:        Not Provided
+          Manufacturer:           GenuineIntel
+          Max Speed:              30000 MHz
+          Part Number:            Not Specified
+          Serial Number:          Not Specified
+          Socket Designation:     CPU socket #28
+          Status:                 Populated, Disabled By BIOS
+          Type:                   Central Processor
+          Upgrade:                ZIF Socket
+          Version:                        Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+          Voltage:                3.3 V
+          application_identifier: Processor Information
+          record_id:              0x0020
+          size:                   4
+          
+          Asset Tag:              Not Specified
+          Current Speed:          3200 MHz
+          External Clock:         Unknown
+          Family:                 Unknown
+          ID:                     A9 06 00 00 FF FB AB 0F
+          L1 Cache Handle:        0x008E
+          L2 Cache Handle:        0x008F
+          L3 Cache Handle:        Not Provided
+          Manufacturer:           GenuineIntel
+          Max Speed:              30000 MHz
+          Part Number:            Not Specified
+          Serial Number:          Not Specified
+          Socket Designation:     CPU socket #29
+          Status:                 Populated, Disabled By BIOS
+          Type:                   Central Processor
+          Upgrade:                ZIF Socket
+          Version:                        Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+          Voltage:                3.3 V
+          application_identifier: Processor Information
+          record_id:              0x0021
+          size:                   4
+          
+          Asset Tag:              Not Specified
+          Current Speed:          3200 MHz
+          External Clock:         Unknown
+          Family:                 Unknown
+          ID:                     A9 06 00 00 FF FB AB 0F
+          L1 Cache Handle:        0x0090
+          L2 Cache Handle:        0x0091
+          L3 Cache Handle:        Not Provided
+          Manufacturer:           GenuineIntel
+          Max Speed:              30000 MHz
+          Part Number:            Not Specified
+          Serial Number:          Not Specified
+          Socket Designation:     CPU socket #30
+          Status:                 Populated, Disabled By BIOS
+          Type:                   Central Processor
+          Upgrade:                ZIF Socket
+          Version:                        Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+          Voltage:                3.3 V
+          application_identifier: Processor Information
+          record_id:              0x0022
+          size:                   4
+          
+          Asset Tag:              Not Specified
+          Current Speed:          3200 MHz
+          External Clock:         Unknown
+          Family:                 Unknown
+          ID:                     A9 06 00 00 FF FB AB 0F
+          L1 Cache Handle:        0x0092
+          L2 Cache Handle:        0x0093
+          L3 Cache Handle:        Not Provided
+          Manufacturer:           GenuineIntel
+          Max Speed:              30000 MHz
+          Part Number:            Not Specified
+          Serial Number:          Not Specified
+          Socket Designation:     CPU socket #31
+          Status:                 Populated, Disabled By BIOS
+          Type:                   Central Processor
+          Upgrade:                ZIF Socket
+          Version:                        Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+          Voltage:                3.3 V
+          application_identifier: Processor Information
+          record_id:              0x0023
+          size:                   4
+          
+          Asset Tag:              Not Specified
+          Current Speed:          3200 MHz
+          External Clock:         Unknown
+          Family:                 Unknown
+          ID:                     A9 06 00 00 FF FB AB 0F
+          L1 Cache Handle:        0x0094
+          L2 Cache Handle:        0x0095
+          L3 Cache Handle:        Not Provided
+          Manufacturer:           GenuineIntel
+          Max Speed:              30000 MHz
+          Part Number:            Not Specified
+          Serial Number:          Not Specified
+          Socket Designation:     CPU socket #32
+          Status:                 Populated, Disabled By BIOS
+          Type:                   Central Processor
+          Upgrade:                ZIF Socket
+          Version:                        Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+          Voltage:                3.3 V
+          application_identifier: Processor Information
+          record_id:              0x0024
+          size:                   4
+          
+          Asset Tag:              Not Specified
+          Current Speed:          3200 MHz
+          External Clock:         Unknown
+          Family:                 Unknown
+          ID:                     A9 06 00 00 FF FB AB 0F
+          L1 Cache Handle:        0x0096
+          L2 Cache Handle:        0x0097
+          L3 Cache Handle:        Not Provided
+          Manufacturer:           GenuineIntel
+          Max Speed:              30000 MHz
+          Part Number:            Not Specified
+          Serial Number:          Not Specified
+          Socket Designation:     CPU socket #33
+          Status:                 Populated, Disabled By BIOS
+          Type:                   Central Processor
+          Upgrade:                ZIF Socket
+          Version:                        Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+          Voltage:                3.3 V
+          application_identifier: Processor Information
+          record_id:              0x0025
+          size:                   4
+          
+          Asset Tag:              Not Specified
+          Current Speed:          3200 MHz
+          External Clock:         Unknown
+          Family:                 Unknown
+          ID:                     A9 06 00 00 FF FB AB 0F
+          L1 Cache Handle:        0x0098
+          L2 Cache Handle:        0x0099
+          L3 Cache Handle:        Not Provided
+          Manufacturer:           GenuineIntel
+          Max Speed:              30000 MHz
+          Part Number:            Not Specified
+          Serial Number:          Not Specified
+          Socket Designation:     CPU socket #34
+          Status:                 Populated, Disabled By BIOS
+          Type:                   Central Processor
+          Upgrade:                ZIF Socket
+          Version:                        Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+          Voltage:                3.3 V
+          application_identifier: Processor Information
+          record_id:              0x0026
+          size:                   4
+          
+          Asset Tag:              Not Specified
+          Current Speed:          3200 MHz
+          External Clock:         Unknown
+          Family:                 Unknown
+          ID:                     A9 06 00 00 FF FB AB 0F
+          L1 Cache Handle:        0x009A
+          L2 Cache Handle:        0x009B
+          L3 Cache Handle:        Not Provided
+          Manufacturer:           GenuineIntel
+          Max Speed:              30000 MHz
+          Part Number:            Not Specified
+          Serial Number:          Not Specified
+          Socket Designation:     CPU socket #35
+          Status:                 Populated, Disabled By BIOS
+          Type:                   Central Processor
+          Upgrade:                ZIF Socket
+          Version:                        Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+          Voltage:                3.3 V
+          application_identifier: Processor Information
+          record_id:              0x0027
+          size:                   4
+          
+          Asset Tag:              Not Specified
+          Current Speed:          3200 MHz
+          External Clock:         Unknown
+          Family:                 Unknown
+          ID:                     A9 06 00 00 FF FB AB 0F
+          L1 Cache Handle:        0x009C
+          L2 Cache Handle:        0x009D
+          L3 Cache Handle:        Not Provided
+          Manufacturer:           GenuineIntel
+          Max Speed:              30000 MHz
+          Part Number:            Not Specified
+          Serial Number:          Not Specified
+          Socket Designation:     CPU socket #36
+          Status:                 Populated, Disabled By BIOS
+          Type:                   Central Processor
+          Upgrade:                ZIF Socket
+          Version:                        Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+          Voltage:                3.3 V
+          application_identifier: Processor Information
+          record_id:              0x0028
+          size:                   4
+          
+          Asset Tag:              Not Specified
+          Current Speed:          3200 MHz
+          External Clock:         Unknown
+          Family:                 Unknown
+          ID:                     A9 06 00 00 FF FB AB 0F
+          L1 Cache Handle:        0x009E
+          L2 Cache Handle:        0x009F
+          L3 Cache Handle:        Not Provided
+          Manufacturer:           GenuineIntel
+          Max Speed:              30000 MHz
+          Part Number:            Not Specified
+          Serial Number:          Not Specified
+          Socket Designation:     CPU socket #37
+          Status:                 Populated, Disabled By BIOS
+          Type:                   Central Processor
+          Upgrade:                ZIF Socket
+          Version:                        Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+          Voltage:                3.3 V
+          application_identifier: Processor Information
+          record_id:              0x0029
+          size:                   4
+          
+          Asset Tag:              Not Specified
+          Current Speed:          3200 MHz
+          External Clock:         Unknown
+          Family:                 Unknown
+          ID:                     A9 06 00 00 FF FB AB 0F
+          L1 Cache Handle:        0x00A0
+          L2 Cache Handle:        0x00A1
+          L3 Cache Handle:        Not Provided
+          Manufacturer:           GenuineIntel
+          Max Speed:              30000 MHz
+          Part Number:            Not Specified
+          Serial Number:          Not Specified
+          Socket Designation:     CPU socket #38
+          Status:                 Populated, Disabled By BIOS
+          Type:                   Central Processor
+          Upgrade:                ZIF Socket
+          Version:                        Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+          Voltage:                3.3 V
+          application_identifier: Processor Information
+          record_id:              0x002A
+          size:                   4
+          
+          Asset Tag:              Not Specified
+          Current Speed:          3200 MHz
+          External Clock:         Unknown
+          Family:                 Unknown
+          ID:                     A9 06 00 00 FF FB AB 0F
+          L1 Cache Handle:        0x00A2
+          L2 Cache Handle:        0x00A3
+          L3 Cache Handle:        Not Provided
+          Manufacturer:           GenuineIntel
+          Max Speed:              30000 MHz
+          Part Number:            Not Specified
+          Serial Number:          Not Specified
+          Socket Designation:     CPU socket #39
+          Status:                 Populated, Disabled By BIOS
+          Type:                   Central Processor
+          Upgrade:                ZIF Socket
+          Version:                        Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+          Voltage:                3.3 V
+          application_identifier: Processor Information
+          record_id:              0x002B
+          size:                   4
+          
+          Asset Tag:              Not Specified
+          Current Speed:          3200 MHz
+          External Clock:         Unknown
+          Family:                 Unknown
+          ID:                     A9 06 00 00 FF FB AB 0F
+          L1 Cache Handle:        0x00A4
+          L2 Cache Handle:        0x00A5
+          L3 Cache Handle:        Not Provided
+          Manufacturer:           GenuineIntel
+          Max Speed:              30000 MHz
+          Part Number:            Not Specified
+          Serial Number:          Not Specified
+          Socket Designation:     CPU socket #40
+          Status:                 Populated, Disabled By BIOS
+          Type:                   Central Processor
+          Upgrade:                ZIF Socket
+          Version:                        Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+          Voltage:                3.3 V
+          application_identifier: Processor Information
+          record_id:              0x002C
+          size:                   4
+          
+          Asset Tag:              Not Specified
+          Current Speed:          3200 MHz
+          External Clock:         Unknown
+          Family:                 Unknown
+          ID:                     A9 06 00 00 FF FB AB 0F
+          L1 Cache Handle:        0x00A6
+          L2 Cache Handle:        0x00A7
+          L3 Cache Handle:        Not Provided
+          Manufacturer:           GenuineIntel
+          Max Speed:              30000 MHz
+          Part Number:            Not Specified
+          Serial Number:          Not Specified
+          Socket Designation:     CPU socket #41
+          Status:                 Populated, Disabled By BIOS
+          Type:                   Central Processor
+          Upgrade:                ZIF Socket
+          Version:                        Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+          Voltage:                3.3 V
+          application_identifier: Processor Information
+          record_id:              0x002D
+          size:                   4
+          
+          Asset Tag:              Not Specified
+          Current Speed:          3200 MHz
+          External Clock:         Unknown
+          Family:                 Unknown
+          ID:                     A9 06 00 00 FF FB AB 0F
+          L1 Cache Handle:        0x00A8
+          L2 Cache Handle:        0x00A9
+          L3 Cache Handle:        Not Provided
+          Manufacturer:           GenuineIntel
+          Max Speed:              30000 MHz
+          Part Number:            Not Specified
+          Serial Number:          Not Specified
+          Socket Designation:     CPU socket #42
+          Status:                 Populated, Disabled By BIOS
+          Type:                   Central Processor
+          Upgrade:                ZIF Socket
+          Version:                        Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+          Voltage:                3.3 V
+          application_identifier: Processor Information
+          record_id:              0x002E
+          size:                   4
+          
+          Asset Tag:              Not Specified
+          Current Speed:          3200 MHz
+          External Clock:         Unknown
+          Family:                 Unknown
+          ID:                     A9 06 00 00 FF FB AB 0F
+          L1 Cache Handle:        0x00AA
+          L2 Cache Handle:        0x00AB
+          L3 Cache Handle:        Not Provided
+          Manufacturer:           GenuineIntel
+          Max Speed:              30000 MHz
+          Part Number:            Not Specified
+          Serial Number:          Not Specified
+          Socket Designation:     CPU socket #43
+          Status:                 Populated, Disabled By BIOS
+          Type:                   Central Processor
+          Upgrade:                ZIF Socket
+          Version:                        Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+          Voltage:                3.3 V
+          application_identifier: Processor Information
+          record_id:              0x002F
+          size:                   4
+          
+          Asset Tag:              Not Specified
+          Current Speed:          3200 MHz
+          External Clock:         Unknown
+          Family:                 Unknown
+          ID:                     A9 06 00 00 FF FB AB 0F
+          L1 Cache Handle:        0x00AC
+          L2 Cache Handle:        0x00AD
+          L3 Cache Handle:        Not Provided
+          Manufacturer:           GenuineIntel
+          Max Speed:              30000 MHz
+          Part Number:            Not Specified
+          Serial Number:          Not Specified
+          Socket Designation:     CPU socket #44
+          Status:                 Populated, Disabled By BIOS
+          Type:                   Central Processor
+          Upgrade:                ZIF Socket
+          Version:                        Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+          Voltage:                3.3 V
+          application_identifier: Processor Information
+          record_id:              0x0030
+          size:                   4
+          
+          Asset Tag:              Not Specified
+          Current Speed:          3200 MHz
+          External Clock:         Unknown
+          Family:                 Unknown
+          ID:                     A9 06 00 00 FF FB AB 0F
+          L1 Cache Handle:        0x00AE
+          L2 Cache Handle:        0x00AF
+          L3 Cache Handle:        Not Provided
+          Manufacturer:           GenuineIntel
+          Max Speed:              30000 MHz
+          Part Number:            Not Specified
+          Serial Number:          Not Specified
+          Socket Designation:     CPU socket #45
+          Status:                 Populated, Disabled By BIOS
+          Type:                   Central Processor
+          Upgrade:                ZIF Socket
+          Version:                        Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+          Voltage:                3.3 V
+          application_identifier: Processor Information
+          record_id:              0x0031
+          size:                   4
+          
+          Asset Tag:              Not Specified
+          Current Speed:          3200 MHz
+          External Clock:         Unknown
+          Family:                 Unknown
+          ID:                     A9 06 00 00 FF FB AB 0F
+          L1 Cache Handle:        0x00B0
+          L2 Cache Handle:        0x00B1
+          L3 Cache Handle:        Not Provided
+          Manufacturer:           GenuineIntel
+          Max Speed:              30000 MHz
+          Part Number:            Not Specified
+          Serial Number:          Not Specified
+          Socket Designation:     CPU socket #46
+          Status:                 Populated, Disabled By BIOS
+          Type:                   Central Processor
+          Upgrade:                ZIF Socket
+          Version:                        Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+          Voltage:                3.3 V
+          application_identifier: Processor Information
+          record_id:              0x0032
+          size:                   4
+          
+          Asset Tag:              Not Specified
+          Current Speed:          3200 MHz
+          External Clock:         Unknown
+          Family:                 Unknown
+          ID:                     A9 06 00 00 FF FB AB 0F
+          L1 Cache Handle:        0x00B2
+          L2 Cache Handle:        0x00B3
+          L3 Cache Handle:        Not Provided
+          Manufacturer:           GenuineIntel
+          Max Speed:              30000 MHz
+          Part Number:            Not Specified
+          Serial Number:          Not Specified
+          Socket Designation:     CPU socket #47
+          Status:                 Populated, Disabled By BIOS
+          Type:                   Central Processor
+          Upgrade:                ZIF Socket
+          Version:                        Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+          Voltage:                3.3 V
+          application_identifier: Processor Information
+          record_id:              0x0033
+          size:                   4
+          
+          Asset Tag:              Not Specified
+          Current Speed:          3200 MHz
+          External Clock:         Unknown
+          Family:                 Unknown
+          ID:                     A9 06 00 00 FF FB AB 0F
+          L1 Cache Handle:        0x00B4
+          L2 Cache Handle:        0x00B5
+          L3 Cache Handle:        Not Provided
+          Manufacturer:           GenuineIntel
+          Max Speed:              30000 MHz
+          Part Number:            Not Specified
+          Serial Number:          Not Specified
+          Socket Designation:     CPU socket #48
+          Status:                 Populated, Disabled By BIOS
+          Type:                   Central Processor
+          Upgrade:                ZIF Socket
+          Version:                        Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+          Voltage:                3.3 V
+          application_identifier: Processor Information
+          record_id:              0x0034
+          size:                   4
+          
+          Asset Tag:              Not Specified
+          Current Speed:          3200 MHz
+          External Clock:         Unknown
+          Family:                 Unknown
+          ID:                     A9 06 00 00 FF FB AB 0F
+          L1 Cache Handle:        0x00B6
+          L2 Cache Handle:        0x00B7
+          L3 Cache Handle:        Not Provided
+          Manufacturer:           GenuineIntel
+          Max Speed:              30000 MHz
+          Part Number:            Not Specified
+          Serial Number:          Not Specified
+          Socket Designation:     CPU socket #49
+          Status:                 Populated, Disabled By BIOS
+          Type:                   Central Processor
+          Upgrade:                ZIF Socket
+          Version:                        Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+          Voltage:                3.3 V
+          application_identifier: Processor Information
+          record_id:              0x0035
+          size:                   4
+          
+          Asset Tag:              Not Specified
+          Current Speed:          3200 MHz
+          External Clock:         Unknown
+          Family:                 Unknown
+          ID:                     A9 06 00 00 FF FB AB 0F
+          L1 Cache Handle:        0x00B8
+          L2 Cache Handle:        0x00B9
+          L3 Cache Handle:        Not Provided
+          Manufacturer:           GenuineIntel
+          Max Speed:              30000 MHz
+          Part Number:            Not Specified
+          Serial Number:          Not Specified
+          Socket Designation:     CPU socket #50
+          Status:                 Populated, Disabled By BIOS
+          Type:                   Central Processor
+          Upgrade:                ZIF Socket
+          Version:                        Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+          Voltage:                3.3 V
+          application_identifier: Processor Information
+          record_id:              0x0036
+          size:                   4
+          
+          Asset Tag:              Not Specified
+          Current Speed:          3200 MHz
+          External Clock:         Unknown
+          Family:                 Unknown
+          ID:                     A9 06 00 00 FF FB AB 0F
+          L1 Cache Handle:        0x00BA
+          L2 Cache Handle:        0x00BB
+          L3 Cache Handle:        Not Provided
+          Manufacturer:           GenuineIntel
+          Max Speed:              30000 MHz
+          Part Number:            Not Specified
+          Serial Number:          Not Specified
+          Socket Designation:     CPU socket #51
+          Status:                 Populated, Disabled By BIOS
+          Type:                   Central Processor
+          Upgrade:                ZIF Socket
+          Version:                        Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+          Voltage:                3.3 V
+          application_identifier: Processor Information
+          record_id:              0x0037
+          size:                   4
+          
+          Asset Tag:              Not Specified
+          Current Speed:          3200 MHz
+          External Clock:         Unknown
+          Family:                 Unknown
+          ID:                     A9 06 00 00 FF FB AB 0F
+          L1 Cache Handle:        0x00BC
+          L2 Cache Handle:        0x00BD
+          L3 Cache Handle:        Not Provided
+          Manufacturer:           GenuineIntel
+          Max Speed:              30000 MHz
+          Part Number:            Not Specified
+          Serial Number:          Not Specified
+          Socket Designation:     CPU socket #52
+          Status:                 Populated, Disabled By BIOS
+          Type:                   Central Processor
+          Upgrade:                ZIF Socket
+          Version:                        Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+          Voltage:                3.3 V
+          application_identifier: Processor Information
+          record_id:              0x0038
+          size:                   4
+          
+          Asset Tag:              Not Specified
+          Current Speed:          3200 MHz
+          External Clock:         Unknown
+          Family:                 Unknown
+          ID:                     A9 06 00 00 FF FB AB 0F
+          L1 Cache Handle:        0x00BE
+          L2 Cache Handle:        0x00BF
+          L3 Cache Handle:        Not Provided
+          Manufacturer:           GenuineIntel
+          Max Speed:              30000 MHz
+          Part Number:            Not Specified
+          Serial Number:          Not Specified
+          Socket Designation:     CPU socket #53
+          Status:                 Populated, Disabled By BIOS
+          Type:                   Central Processor
+          Upgrade:                ZIF Socket
+          Version:                        Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+          Voltage:                3.3 V
+          application_identifier: Processor Information
+          record_id:              0x0039
+          size:                   4
+          
+          Asset Tag:              Not Specified
+          Current Speed:          3200 MHz
+          External Clock:         Unknown
+          Family:                 Unknown
+          ID:                     A9 06 00 00 FF FB AB 0F
+          L1 Cache Handle:        0x00C0
+          L2 Cache Handle:        0x00C1
+          L3 Cache Handle:        Not Provided
+          Manufacturer:           GenuineIntel
+          Max Speed:              30000 MHz
+          Part Number:            Not Specified
+          Serial Number:          Not Specified
+          Socket Designation:     CPU socket #54
+          Status:                 Populated, Disabled By BIOS
+          Type:                   Central Processor
+          Upgrade:                ZIF Socket
+          Version:                        Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+          Voltage:                3.3 V
+          application_identifier: Processor Information
+          record_id:              0x003A
+          size:                   4
+          
+          Asset Tag:              Not Specified
+          Current Speed:          3200 MHz
+          External Clock:         Unknown
+          Family:                 Unknown
+          ID:                     A9 06 00 00 FF FB AB 0F
+          L1 Cache Handle:        0x00C2
+          L2 Cache Handle:        0x00C3
+          L3 Cache Handle:        Not Provided
+          Manufacturer:           GenuineIntel
+          Max Speed:              30000 MHz
+          Part Number:            Not Specified
+          Serial Number:          Not Specified
+          Socket Designation:     CPU socket #55
+          Status:                 Populated, Disabled By BIOS
+          Type:                   Central Processor
+          Upgrade:                ZIF Socket
+          Version:                        Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+          Voltage:                3.3 V
+          application_identifier: Processor Information
+          record_id:              0x003B
+          size:                   4
+          
+          Asset Tag:              Not Specified
+          Current Speed:          3200 MHz
+          External Clock:         Unknown
+          Family:                 Unknown
+          ID:                     A9 06 00 00 FF FB AB 0F
+          L1 Cache Handle:        0x00C4
+          L2 Cache Handle:        0x00C5
+          L3 Cache Handle:        Not Provided
+          Manufacturer:           GenuineIntel
+          Max Speed:              30000 MHz
+          Part Number:            Not Specified
+          Serial Number:          Not Specified
+          Socket Designation:     CPU socket #56
+          Status:                 Populated, Disabled By BIOS
+          Type:                   Central Processor
+          Upgrade:                ZIF Socket
+          Version:                        Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+          Voltage:                3.3 V
+          application_identifier: Processor Information
+          record_id:              0x003C
+          size:                   4
+          
+          Asset Tag:              Not Specified
+          Current Speed:          3200 MHz
+          External Clock:         Unknown
+          Family:                 Unknown
+          ID:                     A9 06 00 00 FF FB AB 0F
+          L1 Cache Handle:        0x00C6
+          L2 Cache Handle:        0x00C7
+          L3 Cache Handle:        Not Provided
+          Manufacturer:           GenuineIntel
+          Max Speed:              30000 MHz
+          Part Number:            Not Specified
+          Serial Number:          Not Specified
+          Socket Designation:     CPU socket #57
+          Status:                 Populated, Disabled By BIOS
+          Type:                   Central Processor
+          Upgrade:                ZIF Socket
+          Version:                        Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+          Voltage:                3.3 V
+          application_identifier: Processor Information
+          record_id:              0x003D
+          size:                   4
+          
+          Asset Tag:              Not Specified
+          Current Speed:          3200 MHz
+          External Clock:         Unknown
+          Family:                 Unknown
+          ID:                     A9 06 00 00 FF FB AB 0F
+          L1 Cache Handle:        0x00C8
+          L2 Cache Handle:        0x00C9
+          L3 Cache Handle:        Not Provided
+          Manufacturer:           GenuineIntel
+          Max Speed:              30000 MHz
+          Part Number:            Not Specified
+          Serial Number:          Not Specified
+          Socket Designation:     CPU socket #58
+          Status:                 Populated, Disabled By BIOS
+          Type:                   Central Processor
+          Upgrade:                ZIF Socket
+          Version:                        Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+          Voltage:                3.3 V
+          application_identifier: Processor Information
+          record_id:              0x003E
+          size:                   4
+          
+          Asset Tag:              Not Specified
+          Current Speed:          3200 MHz
+          External Clock:         Unknown
+          Family:                 Unknown
+          ID:                     A9 06 00 00 FF FB AB 0F
+          L1 Cache Handle:        0x00CA
+          L2 Cache Handle:        0x00CB
+          L3 Cache Handle:        Not Provided
+          Manufacturer:           GenuineIntel
+          Max Speed:              30000 MHz
+          Part Number:            Not Specified
+          Serial Number:          Not Specified
+          Socket Designation:     CPU socket #59
+          Status:                 Populated, Disabled By BIOS
+          Type:                   Central Processor
+          Upgrade:                ZIF Socket
+          Version:                        Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+          Voltage:                3.3 V
+          application_identifier: Processor Information
+          record_id:              0x003F
+          size:                   4
+          
+          Asset Tag:              Not Specified
+          Current Speed:          3200 MHz
+          External Clock:         Unknown
+          Family:                 Unknown
+          ID:                     A9 06 00 00 FF FB AB 0F
+          L1 Cache Handle:        0x00CC
+          L2 Cache Handle:        0x00CD
+          L3 Cache Handle:        Not Provided
+          Manufacturer:           GenuineIntel
+          Max Speed:              30000 MHz
+          Part Number:            Not Specified
+          Serial Number:          Not Specified
+          Socket Designation:     CPU socket #60
+          Status:                 Populated, Disabled By BIOS
+          Type:                   Central Processor
+          Upgrade:                ZIF Socket
+          Version:                        Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+          Voltage:                3.3 V
+          application_identifier: Processor Information
+          record_id:              0x0040
+          size:                   4
+          
+          Asset Tag:              Not Specified
+          Current Speed:          3200 MHz
+          External Clock:         Unknown
+          Family:                 Unknown
+          ID:                     A9 06 00 00 FF FB AB 0F
+          L1 Cache Handle:        0x00CE
+          L2 Cache Handle:        0x00CF
+          L3 Cache Handle:        Not Provided
+          Manufacturer:           GenuineIntel
+          Max Speed:              30000 MHz
+          Part Number:            Not Specified
+          Serial Number:          Not Specified
+          Socket Designation:     CPU socket #61
+          Status:                 Populated, Disabled By BIOS
+          Type:                   Central Processor
+          Upgrade:                ZIF Socket
+          Version:                        Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+          Voltage:                3.3 V
+          application_identifier: Processor Information
+          record_id:              0x0041
+          size:                   4
+          
+          Asset Tag:              Not Specified
+          Current Speed:          3200 MHz
+          External Clock:         Unknown
+          Family:                 Unknown
+          ID:                     A9 06 00 00 FF FB AB 0F
+          L1 Cache Handle:        0x00D0
+          L2 Cache Handle:        0x00D1
+          L3 Cache Handle:        Not Provided
+          Manufacturer:           GenuineIntel
+          Max Speed:              30000 MHz
+          Part Number:            Not Specified
+          Serial Number:          Not Specified
+          Socket Designation:     CPU socket #62
+          Status:                 Populated, Disabled By BIOS
+          Type:                   Central Processor
+          Upgrade:                ZIF Socket
+          Version:                        Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+          Voltage:                3.3 V
+          application_identifier: Processor Information
+          record_id:              0x0042
+          size:                   4
+          
+          Asset Tag:                             Not Specified
+          Associated Memory Slots:
+            0x0045: 
+            0x0046: 
+            0x0047: 
+            0x0048: 
+            0x0049: 
+            0x004A: 
+            0x004B: 
+            0x004C: 
+            0x004D: 
+            0x004E: 
+            0x004F: 
+            0x0050: 
+            0x0051: 
+            0x0052: 
+            0x0053: 
+          Current Interleave:                    One-way Interleave
+          Current Speed:                         3200 MHz
+          Enabled Error Correcting Capabilities:
+            None: 
+          Error Correcting Capabilities:
+            None: 
+          Error Detecting Method:                None
+          External Clock:                        Unknown
+          Family:                                Unknown
+          ID:                                    A9 06 00 00 FF FB AB 0F
+          L1 Cache Handle:                       0x00D2
+          L2 Cache Handle:                       0x00D3
+          L3 Cache Handle:                       Not Provided
+          Manufacturer:                          GenuineIntel
+          Max Speed:                             30000 MHz
+          Maximum Memory Module Size:            32768 MB
+          Maximum Total Memory Size:             491520 MB
+          Memory Module Voltage:                 3.3 V
+          Part Number:                           Not Specified
+          Serial Number:                         Not Specified
+          Socket Designation:                    CPU socket #63
+          Status:                                Populated, Disabled By BIOS
+          Supported Interleave:                  One-way Interleave
+          Supported Memory Types:
+            DIMM:  
+            EDO:   
+            FPM:   
+            SDRAM: 
+          Supported Speeds:
+            60 ns: 
+            70 ns: 
+          Type:                                  Central Processor
+          Upgrade:                               ZIF Socket
+          Version:                                       Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+          Voltage:                               3.3 V
+          application_identifier:                Memory Controller Information
+          record_id:                             0x0043
+          size:                                  4
+        asset_tag:                  Not Specified
+        current_interleave:         One-way Interleave
+        current_speed:              3200 MHz
+        error_detecting_method:     None
+        external_clock:             Unknown
+        family:                     Unknown
+        l3_cache_handle:            Not Provided
+        manufacturer:               GenuineIntel
+        max_speed:                  30000 MHz
+        maximum_memory_module_size: 32768 MB
+        maximum_total_memory_size:  491520 MB
+        memory_module_voltage:      3.3 V
+        part_number:                Not Specified
+        serial_number:              Not Specified
+        supported_interleave:       One-way Interleave
+        type:                       Central Processor
+        upgrade:                    ZIF Socket
+        version:                            Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+        voltage:                    3.3 V
+      smbios_version:    2.4
+      structures:
+        count: 364
+        size:  17030
+      system:
+        all_records:
+          Family:                 Not Specified
+          Manufacturer:           VMware, Inc.
+          Product Name:           VMware Virtual Platform
+          SKU Number:             Not Specified
+          Serial Number:          VMware-56 4d cf 24 56 a8 5d 27-97 55 bf 3d 78 ce a4 0e
+          UUID:                   564DCF24-56A8-5D27-9755-BF3D78CEA40E
+          Version:                None
+          Wake-up Type:           Power Switch
+          application_identifier: System Information
+          record_id:              0x0001
+          size:                   1
+        family:        Not Specified
+        manufacturer:  VMware, Inc.
+        product_name:  VMware Virtual Platform
+        serial_number: VMware-56 4d cf 24 56 a8 5d 27-97 55 bf 3d 78 ce a4 0e
+        sku_number:    Not Specified
+        uuid:          564DCF24-56A8-5D27-9755-BF3D78CEA40E
+        version:       None
+        wake_up_type:  Power Switch
+      table_location:    0x000E0010
+    domain:           
+    etc:
+      group:
+        adm:
+          gid:     4
+          members:
+            syslog
+            ubuntu
+        audio:
+          gid:     29
+          members:
+        backup:
+          gid:     34
+          members:
+        bin:
+          gid:     2
+          members:
+        cdrom:
+          gid:     24
+          members: ubuntu
+        crontab:
+          gid:     103
+          members:
+        daemon:
+          gid:     1
+          members:
+        dialout:
+          gid:     20
+          members:
+        dip:
+          gid:     30
+          members: ubuntu
+        disk:
+          gid:     6
+          members:
+        fax:
+          gid:     21
+          members:
+        floppy:
+          gid:     25
+          members:
+        fuse:
+          gid:     105
+          members:
+        games:
+          gid:     60
+          members:
+        gnats:
+          gid:     41
+          members:
+        irc:
+          gid:     39
+          members:
+        kmem:
+          gid:     15
+          members:
+        landscape:
+          gid:     109
+          members:
+        libuuid:
+          gid:     101
+          members:
+        list:
+          gid:     38
+          members:
+        lp:
+          gid:     7
+          members:
+        lpadmin:
+          gid:     110
+          members: ubuntu
+        mail:
+          gid:     8
+          members:
+        man:
+          gid:     12
+          members:
+        messagebus:
+          gid:     106
+          members:
+        mlocate:
+          gid:     107
+          members:
+        netdev:
+          gid:     102
+          members:
+        news:
+          gid:     9
+          members:
+        nogroup:
+          gid:     65534
+          members:
+        operator:
+          gid:     37
+          members:
+        plugdev:
+          gid:     46
+          members: ubuntu
+        proxy:
+          gid:     13
+          members:
+        root:
+          gid:     0
+          members:
+        sambashare:
+          gid:     111
+          members: ubuntu
+        sasl:
+          gid:     45
+          members:
+        shadow:
+          gid:     42
+          members:
+        src:
+          gid:     40
+          members:
+        ssh:
+          gid:     108
+          members:
+        staff:
+          gid:     50
+          members:
+        sudo:
+          gid:     27
+          members: ubuntu
+        sys:
+          gid:     3
+          members:
+        syslog:
+          gid:     104
+          members:
+        tape:
+          gid:     26
+          members:
+        tty:
+          gid:     5
+          members:
+        ubuntu:
+          gid:     1000
+          members:
+        users:
+          gid:     100
+          members:
+        utmp:
+          gid:     43
+          members:
+        uucp:
+          gid:     10
+          members:
+        video:
+          gid:     44
+          members:
+        voice:
+          gid:     22
+          members:
+        www-data:
+          gid:     33
+          members:
+      passwd:
+        backup:
+          dir:   /var/backups
+          gecos: backup
+          gid:   34
+          shell: /usr/sbin/nologin
+          uid:   34
+        bin:
+          dir:   /bin
+          gecos: bin
+          gid:   2
+          shell: /usr/sbin/nologin
+          uid:   2
+        daemon:
+          dir:   /usr/sbin
+          gecos: daemon
+          gid:   1
+          shell: /usr/sbin/nologin
+          uid:   1
+        games:
+          dir:   /usr/games
+          gecos: games
+          gid:   60
+          shell: /usr/sbin/nologin
+          uid:   5
+        gnats:
+          dir:   /var/lib/gnats
+          gecos: Gnats Bug-Reporting System (admin)
+          gid:   41
+          shell: /usr/sbin/nologin
+          uid:   41
+        irc:
+          dir:   /var/run/ircd
+          gecos: ircd
+          gid:   39
+          shell: /usr/sbin/nologin
+          uid:   39
+        landscape:
+          dir:   /var/lib/landscape
+          gecos: 
+          gid:   109
+          shell: /bin/false
+          uid:   103
+        libuuid:
+          dir:   /var/lib/libuuid
+          gecos: 
+          gid:   101
+          shell: 
+          uid:   100
+        list:
+          dir:   /var/list
+          gecos: Mailing List Manager
+          gid:   38
+          shell: /usr/sbin/nologin
+          uid:   38
+        lp:
+          dir:   /var/spool/lpd
+          gecos: lp
+          gid:   7
+          shell: /usr/sbin/nologin
+          uid:   7
+        mail:
+          dir:   /var/mail
+          gecos: mail
+          gid:   8
+          shell: /usr/sbin/nologin
+          uid:   8
+        man:
+          dir:   /var/cache/man
+          gecos: man
+          gid:   12
+          shell: /usr/sbin/nologin
+          uid:   6
+        messagebus:
+          dir:   /var/run/dbus
+          gecos: 
+          gid:   106
+          shell: /bin/false
+          uid:   102
+        news:
+          dir:   /var/spool/news
+          gecos: news
+          gid:   9
+          shell: /usr/sbin/nologin
+          uid:   9
+        nobody:
+          dir:   /nonexistent
+          gecos: nobody
+          gid:   65534
+          shell: /usr/sbin/nologin
+          uid:   65534
+        proxy:
+          dir:   /bin
+          gecos: proxy
+          gid:   13
+          shell: /usr/sbin/nologin
+          uid:   13
+        root:
+          dir:   /root
+          gecos: root
+          gid:   0
+          shell: /bin/bash
+          uid:   0
+        sshd:
+          dir:   /var/run/sshd
+          gecos: 
+          gid:   65534
+          shell: /usr/sbin/nologin
+          uid:   104
+        sync:
+          dir:   /bin
+          gecos: sync
+          gid:   65534
+          shell: /bin/sync
+          uid:   4
+        sys:
+          dir:   /dev
+          gecos: sys
+          gid:   3
+          shell: /usr/sbin/nologin
+          uid:   3
+        syslog:
+          dir:   /home/syslog
+          gecos: 
+          gid:   104
+          shell: /bin/false
+          uid:   101
+        ubuntu:
+          dir:   /home/ubuntu
+          gecos: ubuntu,,,
+          gid:   1000
+          shell: /bin/bash
+          uid:   1000
+        uucp:
+          dir:   /var/spool/uucp
+          gecos: uucp
+          gid:   10
+          shell: /usr/sbin/nologin
+          uid:   10
+        www-data:
+          dir:   /var/www
+          gecos: www-data
+          gid:   33
+          shell: /usr/sbin/nologin
+          uid:   33
+    filesystem:
+      /dev/mapper/ALBVMPENTAHO1--vg-root:
+        fs_type:             ext4
+        inodes_available:    1154628
+        inodes_percent_used: 7%
+        inodes_used:         74172
+        kb_available:        16947980
+        kb_size:             19213004
+        kb_used:             1266012
+        mount:               /
+        mount_options:
+          rw
+          errors=remount-ro
+        percent_used:        7%
+        total_inodes:        1228800
+        uuid:                c32b96a4-72f4-4a50-8ea7-cfe1e5dfb761
+      /dev/mapper/ALBVMPENTAHO1--vg-swap_1:
+        fs_type: swap
+        uuid:    4b351d02-cfcc-4ffa-b409-0e226f63f0bb
+      /dev/sda1:
+        fs_type:             ext2
+        inodes_available:    61947
+        inodes_percent_used: 1%
+        inodes_used:         301
+        kb_available:        191620
+        kb_size:             240972
+        kb_used:             36911
+        mount:               /boot
+        mount_options:       rw
+        percent_used:        17%
+        total_inodes:        62248
+        uuid:                13fda9bf-698d-4f26-a263-29c4bd061e59
+      /dev/sda5:
+        fs_type: LVM2_member
+        uuid:    j6Xt12-soNm-LjDG-wDpi-Kbwq-vLOm-gL1W6Z
+      devpts:
+        fs_type:       devpts
+        mount:         /dev/pts
+        mount_options:
+          rw
+          noexec
+          nosuid
+          gid=5
+          mode=0620
+      none:
+        fs_type:             pstore
+        inodes_available:    126311
+        inodes_percent_used: 1%
+        inodes_used:         2
+        kb_available:        102400
+        kb_size:             102400
+        kb_used:             0
+        mount:               /sys/fs/pstore
+        mount_options:       rw
+        percent_used:        0%
+        total_inodes:        126313
+      proc:
+        fs_type:       proc
+        mount:         /proc
+        mount_options:
+          rw
+          noexec
+          nosuid
+          nodev
+      rootfs:
+        fs_type:       rootfs
+        mount:         /
+        mount_options: rw
+      sysfs:
+        fs_type:       sysfs
+        mount:         /sys
+        mount_options:
+          rw
+          noexec
+          nosuid
+          nodev
+      systemd:
+        fs_type:       cgroup
+        mount:         /sys/fs/cgroup/systemd
+        mount_options:
+          rw
+          noexec
+          nosuid
+          nodev
+          none
+          name=systemd
+      tmpfs:
+        fs_type:             tmpfs
+        inodes_available:    125874
+        inodes_percent_used: 1%
+        inodes_used:         439
+        kb_available:        100440
+        kb_size:             101052
+        kb_used:             612
+        mount:               /run
+        mount_options:
+          rw
+          noexec
+          nosuid
+          size=10%
+          mode=0755
+        percent_used:        1%
+        total_inodes:        126313
+      udev:
+        fs_type:             devtmpfs
+        inodes_available:    123040
+        inodes_percent_used: 1%
+        inodes_used:         474
+        kb_available:        494044
+        kb_size:             494056
+        kb_used:             12
+        mount:               /dev
+        mount_options:
+          rw
+          mode=0755
+        percent_used:        1%
+        total_inodes:        123514
+    fqdn:             ALBVMPENTAHO1
+    hostname:         ALBVMPENTAHO1
+    idletime:         9 minutes 20 seconds
+    idletime_seconds: 560
+    init_package:     init
+    ip6address:       fe80::20c:29ff:fece:a40e
+    ipaddress:        192.168.229.130
+    kernel:
+      machine: x86_64
+      modules:
+        ablk_helper:
+          refcount: 1
+          size:     13597
+        ac97_bus:
+          refcount: 1
+          size:     12730
+        aes_x86_64:
+          refcount: 1
+          size:     17131
+        aesni_intel:
+          refcount: 0
+          size:     55624
+        ahci:
+          refcount: 0
+          size:     25819
+        coretemp:
+          refcount: 0
+          size:     13435
+        crc32_pclmul:
+          refcount: 0
+          size:     13113
+        crct10dif_pclmul:
+          refcount: 0
+          size:     14289
+        cryptd:
+          refcount: 3
+          size:     20359
+        drm:
+          refcount: 2
+          size:     302817
+        e1000:
+          refcount: 0
+          size:     145174
+        floppy:
+          refcount: 0
+          size:     69370
+        gameport:
+          refcount: 1
+          size:     15758
+        gf128mul:
+          refcount: 1
+          size:     14951
+        ghash_clmulni_intel:
+          refcount: 0
+          size:     13259
+        glue_helper:
+          refcount: 1
+          size:     13990
+        hid:
+          refcount: 2
+          size:     106148
+        hid_generic:
+          refcount: 0
+          size:     12548
+        i2c_piix4:
+          refcount: 0
+          size:     22155
+        libahci:
+          refcount: 1
+          size:     32168
+        lp:
+          refcount: 0
+          size:     17759
+        lrw:
+          refcount: 1
+          size:     13286
+        mac_hid:
+          refcount: 0
+          size:     13205
+        mptbase:
+          refcount: 2
+          size:     101822
+        mptscsih:
+          refcount: 1
+          size:     40150
+        mptspi:
+          refcount: 2
+          size:     22542
+        parport:
+          refcount: 3
+          size:     42348
+        parport_pc:
+          refcount: 1
+          size:     32701
+        ppdev:
+          refcount: 0
+          size:     17671
+        psmouse:
+          refcount: 0
+          size:     102222
+        serio_raw:
+          refcount: 0
+          size:     13462
+        shpchp:
+          refcount: 0
+          size:     37032
+        snd:
+          refcount: 6
+          size:     69238
+        snd_ac97_codec:
+          refcount: 1
+          size:     130285
+        snd_ens1371:
+          refcount: 0
+          size:     25427
+        snd_page_alloc:
+          refcount: 1
+          size:     18710
+        snd_pcm:
+          refcount: 2
+          size:     102099
+        snd_rawmidi:
+          refcount: 1
+          size:     30144
+        snd_seq_device:
+          refcount: 1
+          size:     14497
+        snd_timer:
+          refcount: 1
+          size:     29482
+        soundcore:
+          refcount: 1
+          size:     12680
+        ttm:
+          refcount: 1
+          size:     85115
+        usbhid:
+          refcount: 0
+          size:     52616
+        vmw_balloon:
+          refcount: 0
+          size:     13415
+        vmw_vmci:
+          refcount: 0
+          size:     62966
+        vmwgfx:
+          refcount: 1
+          size:     175358
+      name:    Linux
+      os:      GNU/Linux
+      release: 3.13.0-24-generic
+      version: #46-Ubuntu SMP Thu Apr 10 19:11:08 UTC 2014
+    keys:
+      ssh:
+        host_dsa_public:   AAAAB3NzaC1kc3MAAACBAMAfVyDeCyH294RkBLm8lyUmyMFwXNq32h69nlDp54I82N2Ip3iGNK887CdJsFQezjf24LZeEz1bALrJz+bOazBCdtFhA7e9N+1UmufoLrHyrcDjvBi+6ZokS88BFTjN8c//QOan/6iP+cbE8VMKkcuUp58q8XHq9JGZjX4zyB4FAAAAFQCXQTyu7gPaKc0eyi0VocEvi4529QAAAIAH72nQeNMZbjUXLKEr7WElI+VLNt1iGtnz5qhHXLgpsQkxhUuWDsm7IkSN0zZnHtxNe649pAcFBdaQ6hqmxWD2zjbcIJJGQyBWQLzraEKWuBwFCNiozqF/q2izYY/i2QgRGpUFwGeoWA/E6131ZH+kXPLzweGtZ3qGeOWGQGaxvQAAAIEAn81pwcH2A3Q8Qagi+pecr/EUuC4ue/wX1/QzG4JvKVg+onPbOQmjwQZfM1kw9AFVCMOT7s6faWQvoHMCo1trNKG8jbLgCpxlPkxoDN6Mr5bSyaE/QtiTA3Y8TDy4cJDww+os1gb4o3qp+KS8ZGyyth2eHQJsBqtm1fAWjn9QeNU=
+        host_ecdsa_public: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBG3F3jOvwUN5E7Zjo6oIPNGYALbC2ige0556bqYlFGDHqulTToC1IMFG/1HevCEGuIvRqh7I5dOHpfxXf6rdOQM=
+        host_ecdsa_type:   ecdsa-sha2-nistp256
+        host_rsa_public:   AAAAB3NzaC1yc2EAAAADAQABAAABAQCUmr7povt1ahyr4x6c0+yqsCH7iaCczpCVhP+MP/3OwehMaMATg2w8qmtdWqZXwvPMME9MAL0RdJak6Rk2DKsLBKHUygklZJf8uwf0Jv3jNeZr6girl8akXLGSrUjg3fEF1jQxayJrDohanfbFHJS6tCghbjz8Q7z7jJIxh5FXaQuXYJUgQpOxvrsKczacaPr7LMiu1gxd3s0YGQVhRfF4LYt+djvxOgFmObM872NE2vVjryih32DQy/TfLPydWPabTMPReNrLboDikABDDtkQ2zjGcjX41lU0dFmly0EhhXLD3d+oNG0k5vqGmdX6DWS/o1EnXo7SbIswuZ2z8zfp
+    languages:
+      perl:
+        archname: x86_64-linux-gnu-thread-multi
+        version:  5.18.2
+      python:
+        builddate: Mar 22 2014, 22:59:56
+        version:   2.7.6
+      ruby:
+        bin_dir:       /opt/chef/embedded/bin
+        gem_bin:       /opt/chef/embedded/bin/gem
+        gems_dir:      /opt/chef/embedded/lib/ruby/gems/1.9.1
+        host:          x86_64-unknown-linux-gnu
+        host_cpu:      x86_64
+        host_os:       linux-gnu
+        host_vendor:   unknown
+        platform:      x86_64-linux
+        release_date:  2013-11-22
+        ruby_bin:      /opt/chef/embedded/bin/ruby
+        target:        x86_64-unknown-linux-gnu
+        target_cpu:    x86_64
+        target_os:     linux
+        target_vendor: unknown
+        version:       1.9.3
+    lsb:
+      codename:    trusty
+      description: Ubuntu 14.04 LTS
+      id:          Ubuntu
+      release:     14.04
+    macaddress:       00:0C:29:CE:A4:0E
+    machinename:      ALBVMPENTAHO1
+    memory:
+      active:           163284kB
+      anon_pages:       72192kB
+      bounce:           0kB
+      buffers:          20240kB
+      cached:           259332kB
+      commit_limit:     1549728kB
+      committed_as:     126964kB
+      dirty:            8kB
+      free:             561476kB
+      inactive:         188484kB
+      mapped:           9968kB
+      nfs_unstable:     0kB
+      page_tables:      2176kB
+      slab:             56488kB
+      slab_reclaimable: 38752kB
+      slab_unreclaim:   17736kB
+      swap:
+        cached: 0kB
+        free:   1044476kB
+        total:  1044476kB
+      total:            1010504kB
+      vmalloc_chunk:    34359540732kB
+      vmalloc_total:    34359738367kB
+      vmalloc_used:     176120kB
+      writeback:        0kB
+    name:             PentahoNode1
+    network:
+      default_gateway:   192.168.229.2
+      default_interface: eth0
+      interfaces:
+        eth0:
+          addresses:
+            00:0C:29:CE:A4:0E:
+              family: lladdr
+            192.168.229.130:
+              broadcast: 192.168.229.255
+              family:    inet
+              netmask:   255.255.255.0
+              prefixlen: 24
+              scope:     Global
+            fe80::20c:29ff:fece:a40e:
+              family:    inet6
+              prefixlen: 64
+              scope:     Link
+          arp:
+            192.168.229.129: 00:0c:29:9f:fe:bd
+            192.168.229.2:   00:50:56:ff:65:9a
+          encapsulation: Ethernet
+          flags:
+            BROADCAST
+            MULTICAST
+            UP
+            LOWER_UP
+          mtu:           1500
+          number:        0
+          routes:
+            destination: default
+            family:      inet
+            via:         192.168.229.2
+            
+            destination: 192.168.229.0/24
+            family:      inet
+            proto:       kernel
+            scope:       link
+            src:         192.168.229.130
+            
+            destination: fe80::/64
+            family:      inet6
+            metric:      256
+            proto:       kernel
+          state:         up
+          type:          eth
+        lo:
+          addresses:
+            127.0.0.1:
+              family:    inet
+              netmask:   255.0.0.0
+              prefixlen: 8
+              scope:     Node
+            ::1:
+              family:    inet6
+              prefixlen: 128
+              scope:     Node
+          encapsulation: Loopback
+          flags:
+            LOOPBACK
+            UP
+            LOWER_UP
+          mtu:           65536
+          state:         unknown
+    ohai_time:        1408037534.4414604
+    os:               linux
+    os_version:       3.13.0-24-generic
+    platform:         ubuntu
+    platform_family:  debian
+    platform_version: 14.04
+    recipe:           my_cookbook
+    recipes:
+      my_cookbook
+      my_cookbook::default
+    roles:
+    root_group:       root
+    run_list:         recipe[my_cookbook]
+    tags:
+    uptime:           10 minutes 03 seconds
+    uptime_seconds:   603
+    virtualization:
+      role:    guest
+      system:  vmware
+      systems:
+        vmware: guest
